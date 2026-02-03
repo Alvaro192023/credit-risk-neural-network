@@ -1,5 +1,5 @@
 🚀 Estructura del Proyecto: Modelo de Riesgo Crediticio
-Este código implementa un flujo de trabajo de Ciencia de Datos para predecir la probabilidad de incumplimiento de crédito utilizando el dataset "German Credit Data".
+Este código implementa un flujo de trabajo de Ciencia de Datos para predecir la probabilidad de incumplimiento de crédito 
 
 1. Preparación del Entorno y Datos
 
