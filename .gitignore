@@ -1,0 +1,13 @@
+# Datos (no versionar datasets)
+data/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Entornos y secretos
+.env
