@@ -38,15 +38,18 @@ flowchart LR
 
 ```
 credit-risk-neural-network/
-├── MODELO_PREDICTIVO_RIESGO_INCUMPLIMIENTO.ipynb   # Notebook principal
+├── data/                     # Coloca aqui Datos_Crediticios.csv (no versionado)
+├── credit_risk_model.ipynb   # Notebook principal (EDA -> modelo -> umbral optimo)
+├── requirements.txt          # Dependencias
 └── README.md
 ```
 
 ## Ejecución
 
 1. Clona el repositorio: `git clone https://github.com/Alvaro192023/credit-risk-neural-network.git`
-2. Instala dependencias: `pip install tensorflow scikit-learn imbalanced-learn pandas numpy matplotlib seaborn`
-3. Abre el notebook en Jupyter y ejecuta las celdas en orden.
+2. Instala dependencias: `pip install -r requirements.txt`
+3. Coloca `Datos_Crediticios.csv` dentro de la carpeta `data/`.
+4. Abre `credit_risk_model.ipynb` en Jupyter y ejecuta las celdas en orden.
 
 ## Resultados e impacto
 
